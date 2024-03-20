@@ -6,6 +6,7 @@ B4: Trên trang Streamlit cloud ấn vào mục New app, điền các thông tin
 B5: Hệ thống sẽ tạo 1 máy chủ mới (với domain name là random_string.streamlit.app) để deploy app
     Đợi hệ thống biên dịch xong sẽ cho kết quả ra màn hình
     Có thể check nhật ký deploy qua mục ManageApp
+Tham khảo bài viết sau: https://blog.streamlit.io/host-your-streamlit-app-for-free/
 **Notes: Bài của e đã hoàn thành đến bước delpoy, tuy nhiên hệ thống báo lỗi bên dưới, và e ko biết cách fix :(((
 File "/home/adminuser/venv/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 542, in _run_script
     exec(code, module.__dict__)
