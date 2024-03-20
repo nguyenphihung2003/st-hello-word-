@@ -7,3 +7,7 @@ B5: Hệ thống sẽ tạo 1 máy chủ mới (với domain name là random_str
     Đợi hệ thống biên dịch xong sẽ cho kết quả ra màn hình
     Có thể check nhật ký deploy qua mục ManageApp
 **Notes: Bài của e đã hoàn thành đến bước delpoy, tuy nhiên hệ thống báo lỗi bên dưới, và e ko biết cách fix :(((
+File "/home/adminuser/venv/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 542, in _run_script
+    exec(code, module.__dict__)
+File "/mount/src/st-hello-word-/testAI.py", line 3, in <module>
+    from sklearn.datasets import load_iris
