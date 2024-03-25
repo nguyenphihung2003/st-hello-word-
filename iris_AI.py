@@ -1,5 +1,5 @@
 from sklearn.datasets import load_iris
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import LogisticRegression
 from sklearn.model_selection import train_test_split
 import pickle as pickle
 
@@ -13,7 +13,7 @@ X_train, X_test, y_train, y_test =train_test_split(X,y,test_size=0.2)
 print(X_train.shape)
 print(y_train.shape)
 
-clf=RandomForestClassifier()
+clf=LogisticRegression()
 clf.fit(X_train, y_train)
 
 print(clf.score(X_test, y_test))
